@@ -80,4 +80,9 @@ class Collect
         array_splice($idx, $length);
         return $this;
     }
+
+    public function collection(array $array = []): Collect
+    {
+        return new Collect($array);
+    }
 }
