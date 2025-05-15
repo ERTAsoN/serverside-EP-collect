@@ -81,7 +81,7 @@ class Collect
         return $this;
     }
 
-    public function collection(array $array = []): Collect
+    public static function collection(array $array = []): Collect
     {
         return new Collect($array);
     }
