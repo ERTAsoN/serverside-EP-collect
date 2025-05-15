@@ -1,0 +1,24 @@
+{
+    "name": "ertason/serverside-ep-collect",
+    "description": "Module for working with arrays",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ERTAsoN",
+            "email": "savel.andr.ivanov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1"
+    },
+    "files": [
+        "src/helpers.php"
+    ]
+}
